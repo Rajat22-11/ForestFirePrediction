@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algerian Forest Fires Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Algerian Forest Fires Prediction</h1>
+        <p class="lead">
+            This project uses the Algerian Forest Fires dataset to predict the Fire Weather Index (FWI) based on various weather and environmental factors.
+        </p>
+        <h2>Dataset Information</h2>
+        <p>
+            The dataset includes 244 instances that regroup data from two regions of Algeria, namely the Bejaia region located in the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.
+        </p>
+        <p>
+            The period from June 2012 to September 2012. The dataset includes 11 attributes and 1 output attribute (class). The 244 instances have been classified into fire (138 classes) and not fire (106 classes) classes.
+        </p>
+        <h3>Attribute Information</h3>
+        <ul>
+            <li>Date: (DD/MM/YYYY) Day, month ('June' to 'September'), year (2012)</li>
+            <li>Temperature: temperature noon (temperature max) in Celsius degrees: 22 to 42</li>
+            <li>Relative Humidity (RH): in %: 21 to 90</li>
+            <li>Wind Speed (Ws): in km/h: 6 to 29</li>
+            <li>Rain: total day in mm: 0 to 16.8</li>
+            <li>Fine Fuel Moisture Code (FFMC) index from the FWI system: 28.6 to 92.5</li>
+            <li>Duff Moisture Code (DMC) index from the FWI system: 1.1 to 65.9</li>
+            <li>Drought Code (DC) index from the FWI system: 7 to 220.4</li>
+            <li>Initial Spread Index (ISI) index from the FWI system: 0 to 18.5</li>
+            <li>Buildup Index (BUI) index from the FWI system: 1.1 to 68</li>
+            <li>Fire Weather Index (FWI) Index: 0 to 31.1</li>
+            <li>Classes: two classes, namely Fire and not Fire</li>
+        </ul>
+        <a href="/predict" class="btn btn-primary mt-4">Predict FWI</a>
+    </div>
+</body>
+</html>
